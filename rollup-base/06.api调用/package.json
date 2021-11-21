@@ -1,0 +1,11 @@
+{
+  "name": "rollup-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rimraf dist && rimraf node_modules  && ts-node -r esm rollup.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "vue-rollup-component-template",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "rimraf dist && rimraf node_modules && rollup --config rollup.config.js",
+        "build:browser": "rimraf dist && rimraf node_modules && rollup --config build/rollup.config.browser.js",
+        "build:es": "rimraf dist && rimraf node_modules && rollup --config build/rollup.config.es.js",
+        "build:umd": "rimraf dist && rimraf node_modules && rollup --config build/rollup.config.umd.js"
+    },
+    "author": "",
+    "license": "ISC"
+}

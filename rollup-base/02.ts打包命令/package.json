@@ -1,0 +1,11 @@
+{
+  "name": "a-bundle-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "rimraf dist && rimraf node_modules && rollup --config rollup.config.ts --configPlugin typescript" 
+  },
+  "author": "",
+  "license": "ISC"
+}
